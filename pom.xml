@@ -11,10 +11,12 @@
 
     <modules>
         <module>kkmall-coupon</module>
-        <module>kkmalll-member</module>
         <module>kkmall-order</module>
         <module>kkmall-product</module>
         <module>kkmall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>kkmall-common</module>
     </modules>
 
 
