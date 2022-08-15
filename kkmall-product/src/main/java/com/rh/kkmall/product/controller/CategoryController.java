@@ -32,7 +32,7 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     *
      */
     @RequestMapping("/list")
     //@RequiresPermissions("product:category:list")

@@ -17,6 +17,7 @@
         <module>renren-fast</module>
         <module>renren-generator</module>
         <module>kkmall-common</module>
+        <module>kkmall-gateway</module>
     </modules>
 
 

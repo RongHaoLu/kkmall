@@ -4,7 +4,12 @@ spring:
     url: jdbc:mysql://192.168.210.14:3306/kkmall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
-
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: kkmall-order
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
